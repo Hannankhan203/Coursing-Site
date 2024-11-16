@@ -10,12 +10,14 @@ body {
 }
 
 body {
+  color: #de13de;
   font-family: sans-serif;
 }
 
 body::before {
   content: "";
-  background-image: url("../Images/background.jpg");
+  /* background-image: url("../Images/background.jpg"); */
+  background-color: rgb(196, 196, 196);
   position: fixed;
   top: 0;
   bottom: 7.5%;
@@ -91,7 +93,6 @@ body::before {
   display: inline-block;
   width: 70px;
   height: 70px;
-  color: #000;
   font-size: 1.5rem;
   transition: 0.3s;
   margin-left: 10px;
@@ -99,8 +100,7 @@ body::before {
 }
 
 .menu:hover {
-  background-color: #000;
-  color: #fff;
+  color: #000;
 }
 
 .menu:active {
@@ -130,8 +130,8 @@ body::before {
 
 .nav-links li a {
   text-decoration: none;
+  color: #de13de;
   font-weight: 700;
-  color: #000;
   display: block;
   /* border: 2px solid white; */
   width: 100%;
@@ -158,7 +158,6 @@ body::before {
 .div1 {
   /* border: 2px solid black; */
   font-size: 2.5rem;
-  color: #000;
   font-weight: 700;
   text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -177,7 +176,6 @@ body::before {
   text-align: center;
   padding: 10px;
   font-size: 1.5rem;
-  color: #000;
   transition: 0.3s;
   border-radius: 10px;
 }
@@ -197,7 +195,7 @@ body::before {
   font-size: 1.5rem;
   width: 100%;
   border: none;
-  border-bottom: 2px solid black;
+  border-bottom: 2px solid #de13de;
   padding: 5px 10px;
 }
 
@@ -223,8 +221,8 @@ body::before {
   font-size: 1.2rem;
   background: none;
   border: none;
-  color: #000;
   transition: 0.3s;
+  color: #de13de;
   border-radius: 10px;
 }
 
@@ -267,16 +265,20 @@ body::before {
   /* list-style-position: inside; */
   padding: 10px;
   list-style-type: none;
+  width: 40%;
 }
 
 .intro-section {
+  /* border: 2px solid black; */
+  width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
   align-items: center;
 }
 
 .image {
-  width: 100%;
+  padding: 10px;
+  width: 40%;
   height: 350px;
   /* border: 2px solid black; */
   background-image: url("../Images/home\ side.jpg");
@@ -288,7 +290,7 @@ body::before {
 }
 
 .about {
-  margin-top: 20px;
+  margin-top: 100px;
   /* border: 2px solid black; */
   padding: 10px;
   display: flex;
@@ -339,7 +341,7 @@ body::before {
 .about .btn a {
   font-size: 1.2rem;
   text-decoration: none;
-  color: #000;
+  color: #de13de;
   /* border: 2px solid black; */
   padding: 10px;
   font-weight: 700;
@@ -360,7 +362,7 @@ body::before {
 .services {
   /* border: 2px solid black; */
   padding: 10px;
-  margin-top: 20px;
+  margin-top: 100px;
 }
 
 .services h2 {
@@ -393,6 +395,7 @@ body::before {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   padding: 10px;
   width: 100%;
+  background-color: #de13de;
   transition: 0.3s;
   font-weight: 700;
   border-radius: 10px;
@@ -477,7 +480,7 @@ body::before {
 
 .portfolio {
   /* border: 2px solid black; */
-  margin-top: 20px;
+  margin-top: 100px;
   padding: 10px;
 }
 
@@ -524,14 +527,14 @@ img {
 }
 
 .footer {
-  color: #fff;
+  /* color: #fff; */
   background-color: #000;
   /* border: 2px solid white; */
   padding: 10px;
   padding-bottom: 0;
   padding-right: 0;
   padding-left: 0;
-  margin-top: 20px;
+  margin-top: 100px;
   display: flex;
   flex-direction: column;
   gap: 2rem;
@@ -548,10 +551,10 @@ img {
 .copyright {
   /* border: 2px solid black; */
   padding: 10px;
-  border-top: 2px solid white;
+  border-top: 2px solid #de13de;
   text-align: center;
   font-weight: 700;
-  color: #fff;
+  color: #de13de;
   background-color: #000;
 }
 
@@ -597,6 +600,11 @@ img {
   /* border: 2px solid white; */
   justify-content: center;
   align-items: center;
+}
+
+.footer .foot ul li a{
+  color: #de13de;
+  
 }
 
 .footer .follow {
