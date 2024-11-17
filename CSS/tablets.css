@@ -91,11 +91,6 @@ body.dark-mode {
   margin-right: 60px;
 }
 
-.nav-links.hidden {
-  transform: translate(-100%);
-}
-
-
 .nav-links li {
   /* border: 2px solid white; */
   line-height: 70px;
@@ -168,10 +163,6 @@ body.dark-mode {
 .side-bar.dark-mode {
   background-color: #000;
   transition: 0.5s;
-}
-
-.side-bar.hidden {
-  transform: translate(-100%);
 }
 
 .div1::first-letter {
