@@ -17,6 +17,8 @@ const purchaseBtns = document.querySelectorAll(".purchase-btn");
 const footer = document.querySelector(".footer");
 const copyright = document.querySelector(".copyright");
 const footLinks = document.querySelectorAll(".foot-links");
+const topBtn = document.querySelector(".top");
+const topBtnLink = document.querySelector(".go-top");
 
 // Setting default mode
 body.classList.add("light-mode");
@@ -43,6 +45,8 @@ copyright.classList.add("light-mode");
 footLinks.forEach((footLink) => {
   footLink.classList.add("light-mode");
 });
+topBtn.classList.add("light-mode");
+topBtnLink.classList.add("light-mode");
 
 // Default mode
 let mode = "Light mode";
@@ -73,6 +77,8 @@ const darkMode = () => {
   footLinks.forEach((footLink) => {
     footLink.classList.add("dark-mode");
   });
+  topBtn.classList.add("dark-mode");
+  topBtnLink.classList.add("dark-mode");
 };
 
 // Light mode
@@ -101,6 +107,8 @@ const lightMode = () => {
   footLinks.forEach((footLink) => {
     footLink.classList.remove("dark-mode");
   });
+  topBtn.classList.remove("dark-mode");
+  topBtnLink.classList.remove("dark-mode");
 };
 
 // Toggle mode

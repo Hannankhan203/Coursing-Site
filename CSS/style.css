@@ -3,6 +3,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 html,
@@ -728,8 +729,8 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   margin-top: 20px;
-  width: 486px;
-  height: 226px;
+  width: 480px;
+  height: 220px;
   transition: 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -894,4 +895,61 @@ img {
 
 .footer ul li:hover a {
   color: #fff;
+}
+
+/* Back to Top */
+.top {
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  /* padding: 10px; */
+  border-radius: 10px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  font-size: 1.2rem;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.top.light-mode {
+  color: #de13de;
+  background: #fff;
+  transition: 0.5s;
+}
+
+.top.dark-mode {
+  color: #fff;
+  background-color: #000;
+  transition: 0.5s;
+}
+
+.top .go-top {
+  /* border: 2px solid black; */
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.top .go-top.light-mode {
+  color: #de13de;
+  transition: 0.5s;
+}
+
+.top .go-top.dark-mode {
+  color: #fff;
+  transition: 0.5s;
+}
+
+.top:hover {
+  background-color: #de13de;
+}
+
+.top .go-top:hover {
+  color: #fff;
+}
+
+.top:active {
+  transform: scale(0.9);
 }
