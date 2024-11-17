@@ -73,10 +73,12 @@ body.dark-mode {
 
 .menu-icon.light-mode {
   background-color: #fff;
+  transition: 0.5s;
 }
 
 .menu-icon.dark-mode {
   background-color: #000;
+  transition: 0.5s;
 }
 
 .hidden {
