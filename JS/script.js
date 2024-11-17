@@ -19,6 +19,7 @@ const copyright = document.querySelector(".copyright");
 const footLinks = document.querySelectorAll(".foot-links");
 const topBtn = document.querySelector(".top");
 const topBtnLink = document.querySelector(".go-top");
+const menuBtn = document.querySelector(".menu");
 
 // Setting default mode
 body.classList.add("light-mode");
@@ -124,3 +125,10 @@ const toggleMode = () => {
 
 // Toggle eventlistener
 themeToggle.addEventListener("click", toggleMode);
+
+// Ineractive Responsiveness
+const mobileLayout = () => {
+    sideBar.classList.toggle("hidden");
+}
+
+menuBtn.addEventListener("click", mobileLayout)
