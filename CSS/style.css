@@ -71,6 +71,10 @@ body.dark-mode {
   border-radius: 10px;
 }
 
+.hidden {
+  display: none;
+}
+
 .menu:hover {
   background-color: #de13de;
   color: #fff;
@@ -163,10 +167,6 @@ body.dark-mode {
 .side-bar.dark-mode {
   background-color: #000;
   transition: 0.5s;
-}
-
-.hidden {
-  display: none;
 }
 
 .div1::first-letter {
