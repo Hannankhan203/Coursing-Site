@@ -88,7 +88,7 @@ body.dark-mode {
 }
 
 .nav-links {
-  /* border: 2px solid white; */
+  /* border: 2px solid black; */
   display: flex;
   height: 70px;
   list-style-type: none;
