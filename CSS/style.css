@@ -526,7 +526,7 @@ body::before {
   width: 486px;
   height: 226px;
   transition: 0.3s;
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .project:active {
@@ -541,7 +541,7 @@ img {
 
 /* Footer */
 .footer {
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   /* color: #fff; */
   background-color: #000;
   /* border: 2px solid white; */
@@ -663,6 +663,6 @@ img {
   background-color: #de13de;
 }
 
-.footer ul li:hover a{
+.footer ul li:hover a {
   color: #fff;
 }
