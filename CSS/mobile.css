@@ -858,6 +858,10 @@ img {
   align-items: center;
 }
 
+.follow-us p {
+  margin-top: 10px;
+}
+
 .footer .foot ul li .foot-links.light-mode {
   color: #de13de;
   transition: 0.5s;
@@ -869,7 +873,7 @@ img {
 }
 
 .footer .follow {
-  /* border: 2px solid white; */
+  /* border: 2px solid black; */
   width: 60%;
   height: 100%;
   display: flex;
@@ -881,7 +885,7 @@ img {
 }
 
 .follow i {
-  /* border: 2px solid white; */
+  /* border: 2px solid black; */
   border-radius: 10px;
   padding: 10px;
   transition: 0.3s;
@@ -897,7 +901,7 @@ img {
   transform: scale(0.9);
 }
 
-.footer a {
+.footer .foot-links {
   color: #fff;
   text-decoration: none;
 }
@@ -906,7 +910,7 @@ img {
   background-color: #de13de;
 }
 
-.footer ul li:hover a {
+.footer .foot ul li:hover .foot-links {
   color: #fff;
 }
 
