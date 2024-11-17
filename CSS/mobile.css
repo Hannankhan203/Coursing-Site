@@ -153,7 +153,8 @@
 }
 
 .cards {
-  gap: 0.3rem;
+  gap: 1rem;
+  flex-direction: column;
 }
 
 .card {
@@ -171,32 +172,40 @@
 
 .image1 {
   /* border: 2px solid black; */
-  height: 80px;
+  height: 250px;
 }
 
 .image2-1 {
   /* border: 2px solid black; */
-  height: 40px;
+  height: 125px;
 }
 
 .image2-2 {
   /* border: 2px solid black; */
-  height: 40px;
+  height: 125px;
 }
 
 .image3-1 {
   /* border: 2px solid black; */
-  height: 40px;
+  height: 125px;
 }
 
 .image3-2 {
   /* border: 2px solid black; */
-  height: 40px;
+  height: 125px;
 }
 
 .card .btn {
-  padding: 3px;
-  font-size: 0.5rem;
+  padding: 5px;
+  font-size: 0.8rem;
+}
+
+.card h3 {
+  font-size: 1rem;
+}
+
+.card p {
+  font-size: 0.8rem;
 }
 
 /* Portfolio Section */
@@ -227,26 +236,31 @@ img {
 }
 
 /* Footer */
+.footer {
+  padding: 0;
+}
+
 .foot {
+  padding: 5px;
   gap: 0.4rem;
   /* border: 2px solid black; */
 }
 
 .footer .footer-text h3 {
-  font-size: 0.7rem;
+  font-size: 0.8rem;
 }
 
 .footer .footer-text p {
-  font-size: 0.4rem;
+  font-size: 0.6rem;
 }
 
 .footer ul {
   /* border: 2px solid black; */
-  font-size: 0.25rem;
+  font-size: 0.5rem;
 }
 
 .footer .follow-us {
-  font-size: 0.25rem;
+  font-size: 0.5rem;
   /* border: 2px solid black; */
 }
 
@@ -257,7 +271,7 @@ img {
 .footer .follow {
   /* border: 2px solid black; */
   width: 90%;
-  font-size: 0.5rem;
+  font-size: 0.8rem;
 }
 
 .follow i {
