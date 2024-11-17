@@ -19,6 +19,8 @@ const copyright = document.querySelector(".copyright");
 const footLinks = document.querySelectorAll(".foot-links");
 const topBtn = document.querySelector(".top");
 const topBtnLink = document.querySelector(".go-top");
+const menuIcon = document.querySelector(".menu-icon");
+const navBar = document.querySelector(".navbar");
 
 // Setting default mode
 body.classList.add("light-mode");
@@ -47,6 +49,7 @@ footLinks.forEach((footLink) => {
 });
 topBtn.classList.add("light-mode");
 topBtnLink.classList.add("light-mode");
+menuIcon.classList.add("light-mode");
 
 // Default mode
 let mode = "Light mode";
@@ -79,6 +82,8 @@ const darkMode = () => {
   });
   topBtn.classList.add("dark-mode");
   topBtnLink.classList.add("dark-mode");
+menuIcon.classList.add("dark-mode");
+
 };
 
 // Light mode
@@ -109,6 +114,8 @@ const lightMode = () => {
   });
   topBtn.classList.remove("dark-mode");
   topBtnLink.classList.remove("dark-mode");
+menuIcon.classList.remove("dark-mode");
+
 };
 
 // Toggle mode
@@ -124,3 +131,11 @@ const toggleMode = () => {
 
 // Toggle eventlistener
 themeToggle.addEventListener("click", toggleMode);
+
+const mobileScreen = () => {
+  sideBar.classList.toggle("hide");
+  navBar.classList.toggle("hide");
+  // menuIcon.classList.toggle("set");
+}
+
+menu.addEventListener("click", mobileScreen)

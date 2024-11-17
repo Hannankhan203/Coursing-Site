@@ -71,10 +71,14 @@ body.dark-mode {
   border-radius: 10px;
 }
 
-.menu:hover {
-  background-color: #de13de;
-  color: #fff;
+.menu-icon.light-mode {
+  background-color: #fff;
 }
+
+.menu-icon.dark-mode {
+  background-color: #000;
+}
+
 
 .menu:active {
   transform: scale(0.9);
