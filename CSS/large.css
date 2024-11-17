@@ -514,7 +514,7 @@ label input:checked ~ .botn {
 }
 
 .about .btn {
-  padding: 10px 0;
+  padding: 0;
   border: none;
   border-radius: 10px;
   transition: 0.3s;
