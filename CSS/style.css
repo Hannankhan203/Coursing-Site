@@ -165,6 +165,10 @@ body.dark-mode {
   transition: 0.5s;
 }
 
+.hidden {
+  display: none;
+}
+
 .div1::first-letter {
   font-size: 4.5rem;
 }
