@@ -21,6 +21,7 @@ const topBtn = document.querySelector(".top");
 const topBtnLink = document.querySelector(".go-top");
 const menuIcon = document.querySelector(".menu-icon");
 const navBar = document.querySelector(".navbar");
+const botn = document.querySelector(".botn");
 
 // Setting default mode
 body.classList.add("light-mode");
@@ -50,6 +51,7 @@ footLinks.forEach((footLink) => {
 topBtn.classList.add("light-mode");
 topBtnLink.classList.add("light-mode");
 menuIcon.classList.add("light-mode");
+botn.classList.add("light-mode");
 
 // Default mode
 let mode = "Light mode";
@@ -83,6 +85,8 @@ const darkMode = () => {
   topBtn.classList.add("dark-mode");
   topBtnLink.classList.add("dark-mode");
 menuIcon.classList.add("dark-mode");
+botn.classList.add("dark-mode");
+
 
 };
 
@@ -115,6 +119,8 @@ const lightMode = () => {
   topBtn.classList.remove("dark-mode");
   topBtnLink.classList.remove("dark-mode");
 menuIcon.classList.remove("dark-mode");
+botn.classList.remove("dark-mode");
+
 
 };
 
