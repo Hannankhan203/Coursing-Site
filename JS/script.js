@@ -53,86 +53,36 @@ topBtnLink.classList.add("light-mode");
 menuIcon.classList.add("light-mode");
 botn.classList.add("light-mode");
 
-// Default mode
-let mode = "Light mode";
-
-// Dark mode
-const darkMode = () => {
-  body.classList.add("dark-mode");
-  navOptions.classList.add("dark-mode");
-  navlinks.forEach((navLink) => {
-    navLink.classList.add("dark-mode");
-  });
-  sideBar.classList.add("dark-mode");
-  input.classList.add("dark-mode");
-  selects.forEach((select) => {
-    select.classList.add("dark-mode");
-  });
-  check.classList.add("dark-mode");
-  aboutBtn.classList.add("dark-mode");
-  aboutBtnLink.classList.add("dark-mode");
-  cards.forEach((card) => {
-    card.classList.add("dark-mode");
-  });
-  purchaseBtns.forEach((purchaseBtn) => {
-    purchaseBtn.classList.add("dark-mode");
-  });
-  footer.classList.add("dark-mode");
-  copyright.classList.add("dark-mode");
-  footLinks.forEach((footLink) => {
-    footLink.classList.add("dark-mode");
-  });
-  topBtn.classList.add("dark-mode");
-  topBtnLink.classList.add("dark-mode");
-menuIcon.classList.add("dark-mode");
-botn.classList.add("dark-mode");
-
-
-};
-
-// Light mode
-const lightMode = () => {
-  body.classList.remove("dark-mode");
-  navOptions.classList.remove("dark-mode");
-  navlinks.forEach((navLink) => {
-    navLink.classList.remove("dark-mode");
-  });
-  sideBar.classList.remove("dark-mode");
-  input.classList.remove("dark-mode");
-  selects.forEach((select) => {
-    select.classList.remove("dark-mode");
-  });
-  check.classList.remove("dark-mode");
-  aboutBtn.classList.remove("dark-mode");
-  aboutBtnLink.classList.remove("dark-mode");
-  cards.forEach((card) => {
-    card.classList.remove("dark-mode");
-  });
-  purchaseBtns.forEach((purchaseBtn) => {
-    purchaseBtn.classList.remove("dark-mode");
-  });
-  footer.classList.remove("dark-mode");
-  copyright.classList.remove("dark-mode");
-  footLinks.forEach((footLink) => {
-    footLink.classList.remove("dark-mode");
-  });
-  topBtn.classList.remove("dark-mode");
-  topBtnLink.classList.remove("dark-mode");
-menuIcon.classList.remove("dark-mode");
-botn.classList.remove("dark-mode");
-
-
-};
-
 // Toggle mode
 const toggleMode = () => {
-  if (mode === "Light mode") {
-    mode = "Dark mode";
-    darkMode();
-  } else {
-    mode = "Light mode";
-    lightMode();
-  }
+  body.classList.toggle("dark-mode");
+  navOptions.classList.toggle("dark-mode");
+  navlinks.forEach((navLink) => {
+    navLink.classList.toggle("dark-mode");
+  });
+  sideBar.classList.toggle("dark-mode");
+  input.classList.toggle("dark-mode");
+  selects.forEach((select) => {
+    select.classList.toggle("dark-mode");
+  });
+  check.classList.toggle("dark-mode");
+  aboutBtn.classList.toggle("dark-mode");
+  aboutBtnLink.classList.toggle("dark-mode");
+  cards.forEach((card) => {
+    card.classList.toggle("dark-mode");
+  });
+  purchaseBtns.forEach((purchaseBtn) => {
+    purchaseBtn.classList.toggle("dark-mode");
+  });
+  footer.classList.toggle("dark-mode");
+  copyright.classList.toggle("dark-mode");
+  footLinks.forEach((footLink) => {
+    footLink.classList.toggle("dark-mode");
+  });
+  topBtn.classList.toggle("dark-mode");
+  topBtnLink.classList.toggle("dark-mode");
+menuIcon.classList.toggle("dark-mode");
+botn.classList.toggle("dark-mode");
 };
 
 // Toggle eventlistener
