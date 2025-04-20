@@ -749,7 +749,7 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   margin-top: 20px;
-  width: 480px;
+  width: 440px;
   height: 220px;
   transition: 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);

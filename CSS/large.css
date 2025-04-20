@@ -538,7 +538,7 @@ label input:checked ~ .botn {
 .projects {
   /* border: 2px solid black; */
   margin-top: 20px;
-  height: 112vh;
+  height: 125vh;
   display: flex;
   flex-wrap: wrap;
   padding: 10px;
@@ -549,8 +549,8 @@ label input:checked ~ .botn {
 .project {
   /* border: 2px solid black; */
   margin-top: 20px;
-  width: 480px;
-  height: 220px;
+  width: 420px;
+  height: 180px;
   transition: 0.3s;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -565,8 +565,8 @@ label input:checked ~ .botn {
 
 img {
   /* border: 2px solid black; */
-  width: 480px;
-  height: 220px;
+  width: 430px;
+  height: 180px;
 }
 
 /* Footer */
